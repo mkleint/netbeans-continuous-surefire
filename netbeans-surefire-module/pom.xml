@@ -20,7 +20,7 @@
                     <nbmResources>
                         <nbmResource>
                             <directory>${project.build.directory}/copy-spy</directory>
-                            <targetPath>org/mkleint/surefire</targetPath>
+                            <targetPath>maven-nblib</targetPath>
                             <includes>
                                 <include>netbeans-surefire-eventspy.jar</include>
                             </includes>
@@ -119,6 +119,26 @@
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-util</artifactId>
+            <version>${netbeans.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>org-netbeans-modules-projectapi</artifactId>
+            <groupId>org.netbeans.api</groupId>
+            <version>${netbeans.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>org-netbeans-modules-projectuiapi</artifactId>
+            <groupId>org.netbeans.api</groupId>
+            <version>${netbeans.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>org-openide-awt</artifactId>
+            <groupId>org.netbeans.api</groupId>
+            <version>${netbeans.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>org-openide-util-lookup</artifactId>
+            <groupId>org.netbeans.api</groupId>
             <version>${netbeans.version}</version>
         </dependency>
     </dependencies>
