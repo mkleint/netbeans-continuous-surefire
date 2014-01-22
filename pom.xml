@@ -8,6 +8,7 @@
     <modules>
         <module>netbeans-surefire-eventspy</module>
         <module>netbeans-surefire-module</module>
+        <module>update-site</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
